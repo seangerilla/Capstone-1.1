@@ -1,0 +1,89 @@
+Design and Development of E-Reklamo: A Real-Time Infrastructure Complaint and Resolution Monitoring System for Tacloban City General Services Office (CGSO) with Integrated AI Chatbot Assistant 
+
+________________________________
+
+A Capstone Project Presented to the Faculty
+of the IT and Computer Education Unit
+Leyte Normal University
+Tacloban City  
+________________________________
+   
+In Fulfillment of the
+Requirements for the Degree
+Bachelor of Science in Information Technology 
+ 
+________________________________
+   
+by:
+ 
+Raineer Ivan A. Abayan
+Bonifacio M. Lebanon Jr
+Ramona Marijhune Palanas
+Dijon Gerilla
+
+CHAPTER 1
+	This chapter provides a broad overview of the research reported in this study, including the introduction, project context, study objective, and scope and limitations.
+Introduction
+	The City General Services Office (CGSO) of Tacloban City, as a key department of the local government unit (LGU), is primarily responsible for the acquisition, maintenance, safekeeping, utilization, and disposal of city government properties, as well as providing general administrative support services including maintenance of public facilities, public safety inspections, and coordination of infrastructure-related activities (City Government of Tacloban, 2023). Reporting infrastructure complaints is a cornerstone of maintaining and improving public services and urban livability in local government units (LGUs). By allowing citizens to raise concerns about road damage, sidewalk issues, drainage and flooding problems, vandalism, and graffiti, these reports offer a critical lens for assessing infrastructure conditions, prioritizing repairs, and ensuring timely government response. These mechanisms are instrumental in driving continuous improvements in city governance, as they provide actionable data to support evidence-based resource allocation and service delivery (DILG, 2025). Furthermore, traditional methods of collecting citizen complaints, such as in-person submissions at city halls, phone calls, or manual logbooks at the CGSO, have long been the standard in many Philippine LGUs (DILG, 2025).
+These mechanisms have provided a foundational means for gathering residents’ views on public infrastructure. However, they come with notable limitations. In-person or manual reporting can be cumbersome to access and submit, particularly for busy residents or those in remote barangays. Therefore, they can take a lot of time and effort on the part of citizens and CGSO staff (OpenGov Asia, 2025). It also takes long to process and analyze this information. Waiting long to identify issues and provide updates is less effective (World Bank, 2023). When things are delayed, we don’t get the chance to intervene quickly and prevent further deterioration. In addition, the availability of office hours and physical presence may limit the quality and quantity of reports. These limitations further reduce the reliability and completeness of the data collected, leading to slower resolutions and lower citizen trust.
+At Tacloban City, the possible advantages of digital strategies are not being fully utilized, even as conventional complaint reporting strategies remain in use. More precisely, there is no innovative or strong centralized system that can record, track in real-time, analyze, or visualize infrastructure complaints effectively. Tacloban CGSO has fallen short of maximizing technology for complaint management due to this gap. Current strategies seem deficient in making data processing happen on time. Furthermore, traditional methods do not provide accessible, flexible options to citizens opting to report issues themselves, especially amid ongoing challenges like post-typhoon recovery strains on infrastructure and frequent concerns over delays in public facilities and roads.
+By relying on outdated techniques, the CGSO is less efficient and is unable to obtain timely insights. In view of the above-mentioned problems, a web-based real-time infrastructure complaint and resolution monitoring system with integrated AI chatbot assistant for the Tacloban City General Services Office, named E-Reklamo, has been proposed. Improving complaint reporting process must overcome these issues through digital innovation. Using a web-based system has a number of advantages, which will counter the existing problems in current system. A digital platform supports accessibility, allowing residents to submit complaints anytime and anywhere via mobile browsers. This is particularly useful for busy citizens and those with mobility constraints. Besides that, CGSO administrators are often overloaded with manual tasks. This option for increased flexibility is likely to produce higher reporting rates which will enhance the reliability and completeness of the collected data (OECD, 2023). Furthermore, integrating an AI-powered chatbot for guiding submissions, answering FAQs, handling status queries in natural language, and offering basic multilingual support ensures 24/7 assistance, reduces repetitive staff workload, and promotes transparency. By ensuring system security, real-time tracking (Pending, In Progress, Completed), and a user-friendly interface, Tacloban CGSO can collect and act on complaints more effectively, ultimately fostering stronger citizen participation in local governance.
+1.2 Purpose and Description
+
+
+The primary purpose of this study is to design and develop E-Reklamo, a web-based real-time infrastructure complaint and resolution monitoring system with an integrated AI chatbot assistant for the City General Services Office (CGSO) of Tacloban City. The system aims to modernize and enhance the existing complaint reporting and management process by providing a centralized, accessible, and efficient digital platform for citizens and CGSO administrators. Specifically, the system seeks to address the limitations of traditional, manual complaint reporting methods—such as in-person submissions, phone calls, and logbooks—which have been shown to be time-consuming, difficult to analyze, and prone to delays in response and resolution (World Bank, 2023; OpenGov Asia, 2025). By enabling real-time submission, tracking, and monitoring of infrastructure complaints, the system supports faster identification of issues, improved prioritization of resources, and more timely government intervention, which are critical to preventing further infrastructure deterioration and ensuring public safety.
+In addition, the integration of an AI-powered chatbot aims to improve citizen engagement by providing 24/7 assistance, guiding users through the complaint submission process, answering frequently asked questions, and allowing residents to check complaint status using natural language queries. This aligns with global best practices in digital governance, where AI-enabled public service platforms have been shown to improve accessibility, transparency, and administrative efficiency while reducing staff workload (OECD, 2023).Ultimately, the proposed system aims to strengthen citizen trust, participation, and accountability in local governance, while supporting the CGSO’s mandate to effectively manage and maintain public infrastructure in Tacloban City, especially in the context of post-typhoon recovery and increasing urban service demands (City Government of Tacloban, 2023; DILG, 2025).
+E-Reklamo is a web-based infrastructure complaint and resolution monitoring system designed for the City General Services Office (CGSO) of Tacloban City. The system provides a centralized digital platform where residents can report infrastructure-related concerns such as damaged roads, broken sidewalks, drainage and flooding issues, vandalism, and graffiti through mobile or desktop web browsers at any time and from any location.
+The system allows citizens to submit complaints with structured details, optional photo evidence, and location information. Each complaint is automatically logged into a centralized database and assigned a real-time status indicator (e.g., Pending, In Progress, Completed). This enables both citizens and CGSO administrators to track the progress of reported issues transparently. Such real-time monitoring supports evidence-based decision-making and improves service delivery by allowing LGUs to identify recurring issues, prioritize repairs, and allocate resources more efficiently (DILG, 2025; World Bank, 2023).
+A key feature of E-Reklamo is its AI-powered chatbot assistant, which interacts with users through natural language. The chatbot assists citizens by guiding them through complaint submission, answering frequently asked questions, providing basic multilingual support, and responding to status inquiries. This feature enhances accessibility and usability, especially for first-time users, while reducing repetitive inquiries handled by CGSO personnel. Studies on digital public services indicate that AI-driven interfaces significantly improve user satisfaction and operational efficiency in government systems (OECD, 2023).
+For CGSO administrators, the system includes a secure dashboard that allows authorized personnel to manage complaints, update statuses, generate reports, and analyze trends in infrastructure issues across barangays. By replacing fragmented manual processes with a unified digital system, E-Reklamo addresses long-standing inefficiencies in complaint processing and data analysis observed in many Philippine LGUs (OpenGov Asia, 2025).
+Overall, E-Reklamo is designed to support Tacloban City’s transition toward smart and responsive local governance by leveraging web technologies and artificial intelligence to improve infrastructure management, citizen engagement, and public service transparency.
+
+1.3 Objective of the Study
+The main goal of this study is to design, develop, and introduce E-Reklamo a web-based system that allows real-time reporting and monitoring of infrastructure complaints, complete with an integrated AI chatbot assistant specifically for the Tacloban City General Services Office (CGSO). Ultimately, the project seeks to modernize how citizens report problems and how the city office responds, making the entire process faster, more transparent, and more citizen-friendly.
+To achieve this, the study pursues the following specific objectives:
+1.	To examine the current manual process of receiving and handling infrastructure complaints at the Tacloban City CGSO, identify its main challenges, and determine what features citizens and staff need in a digital replacement.
+2.	To create an easy-to-use web platform where residents can report issues such as damaged roads, broken sidewalks, clogged drainage, flooding, vandalism, or graffiti from any device, at any time, and include photos and location details when possible.
+3.	To build essential system features that automatically record complaints, assign them a clear status (Pending, In Progress, Completed), and let both citizens and CGSO staff track progress in real time.
+4.	To develop and integrate a helpful AI chatbot that understands everyday language, guides users step-by-step when filing a report, answers common questions, checks complaint status on request, and offers basic support in English and Waray (where practical), so citizens feel supported even outside office hours.
+5.	To provide CGSO personnel with a secure, intuitive dashboard where they can review complaints, assign tasks, update statuses, add notes or photos, generate simple reports, and spot patterns (for example, which barangays or types of issues appear most often) to make smarter decisions about repairs and resources.
+6.	To test the completed system with real users both ordinary residents and CGSO staff and gather honest feedback on its ease of use, reliability, speed, and overall helpfulness, so the project can clearly show how much better it performs compared to the old paper-and-phone methods.
+Through these objectives, the study aims to build a practical bridge between the people of Tacloban and their local government helping everyone respond more quickly to infrastructure needs, especially in a city still recovering from past typhoons, and encouraging greater trust and participation in local governance.
+1.4 Scope and Limitations
+
+Scope
+This project centers on designing, building, and initially testing E-Reklamo, a web-based complaint management system created specifically to meet the infrastructure-related responsibilities of the Tacloban City General Services Office (CGSO).
+The system includes the following key features and coverage:
+●	For citizens: a simple registration option (or anonymous reporting), a clear complaint form asking for description, category, location (text or approximate coordinates), and the ability to attach photos, plus a way to check the current status of their reports anytime.
+●	An AI chatbot that uses natural conversation to help users file complaints, answer frequently asked questions, explain the process, respond to status checks, and offer basic support in English and Waray.
+●	For CGSO staff: a password-protected dashboard to view all complaints, update their status, add internal notes or evidence, generate summary reports and basic charts (e.g., complaints by barangay or by type), and manage user accounts for office personnel.
+●	Real-time status updates visible to both citizens and administrators as soon as changes are made.
+●	A responsive web design that works well on computers, tablets, and mobile phones through standard web browsers.
+●	Development following a structured software development approach, with basic but important security practices such as login protection, input checking, and role-based access.
+●	Evaluation done through hands-on testing and feedback sessions with a selected group of Tacloban residents and CGSO employees.
+Limitations
+Like any capstone project completed within a limited time and budget, E-Reklamo has several defined boundaries:
+1.	The system focuses only on infrastructure complaints under the CGSO’s responsibility (roads, sidewalks, drainage, public buildings, vandalism, graffiti, etc.) and does not handle complaints directed to other city offices such as health, social services, or law enforcement.
+2.	The AI chatbot is designed to assist with common tasks and simple questions; it is not intended to fully understand very complicated issues, detect emotions deeply, automatically resolve complaints, or replace human staff in emergency or sensitive cases.
+3.	Location information depends mainly on what the user types or selects; full GPS tracking or interactive maps are not included in this version.
+4.	The system is purely web-based (no standalone mobile app for iOS or Android), so its performance depends on the user’s internet connection and browser.
+5.	Automatic notifications via email, SMS, or push messages are not part of the current scope; users must log in or visit the website to see updates.
+6.	Multilingual support in the chatbot is limited and may not perfectly cover every local dialect or nuance.
+7.	The project does not cover long-term hosting, server maintenance costs, full integration with other city government databases, or any payment-related features.
+8.	Testing and evaluation involve a manageable number of participants (citizens and staff); large-scale city-wide rollout, stress testing with thousands of simultaneous users, or long-term impact studies are outside the project’s timeframe.
+9.	While basic security measures are implemented, the system has not undergone professional penetration testing or advanced data encryption audits; it follows general best practices and respects Republic Act 10173 (Data Privacy Act) principles but is not certified at an enterprise level.
+These limitations are clearly defined so the team could focus on delivering a solid, working prototype that directly addresses the core problems identified while leaving room for future improvements by the city or other developers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
